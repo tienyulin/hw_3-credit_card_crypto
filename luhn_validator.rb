@@ -15,6 +15,6 @@ module LuhnValidator
     even_index_num = even_index_num.map { |n| n * 2 > 9 ? n * 2 - 9 : n * 2 }
     even_total = even_index_num.sum
 
-    valid = (odd_total + even_total) % 10 == 0 ? true : false
+    ((odd_total + even_total) % 10).zero?
   end
 end
