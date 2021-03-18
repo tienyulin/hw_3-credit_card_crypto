@@ -7,3 +7,6 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*
     - Rakefile
+    
+Style/FrozenStringLiteralComment:
+  Enabled: false
