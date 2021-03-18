@@ -1,12 +1,12 @@
 ---
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 3.0
   
 Metrics/BlockLength:
   Enabled: true
   Exclude:
     - spec/**/*
     - Rakefile
-    
+
 Style/FrozenStringLiteralComment:
   Enabled: false
