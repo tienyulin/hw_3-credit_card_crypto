@@ -5,6 +5,7 @@ GEM
     minitest (5.14.4)
 
 PLATFORMS
+  aarch64-linux
   x86_64-linux
 
 DEPENDENCIES
