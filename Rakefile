@@ -1,7 +1,7 @@
 # Rakefile
 require 'rake/testtask'
 
-desc 'Test'
+desc 'Ruby Test'
 Rake::TestTask.new do |t|
   t.test_files = FileList['spec/luhn_spec.rb']
 end
