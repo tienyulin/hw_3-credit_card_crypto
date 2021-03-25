@@ -3,6 +3,7 @@ GEM
   specs:
     json (2.5.1)
     minitest (5.14.4)
+    rake (13.0.3)
 
 PLATFORMS
   aarch64-linux
@@ -11,6 +12,7 @@ PLATFORMS
 DEPENDENCIES
   json
   minitest
+  rake
 
 BUNDLED WITH
    2.2.3
