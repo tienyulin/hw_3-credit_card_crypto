@@ -28,6 +28,6 @@ module LuhnValidator
     even_index_num = nums_a.reverse_each.select.with_index { |_, i| i.odd? }
     even_index_num = even_index_num.map { |n| n * 2 > 9 ? n * 2 - 9 : n * 2 }
 
-    even_index_num.sum
+    even_index_num.sum + 1
   end
 end
